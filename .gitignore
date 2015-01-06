@@ -58,7 +58,6 @@ local.properties
 *.tlb
 *.tli
 *.tlh
-*.tmp
 *.vspscc
 .builds
 *.dotCover
@@ -175,7 +174,6 @@ pip-log.txt
 
 .vagrant
 
-elasticsearch
 !modules/elasticsearch
 
 *~
@@ -183,5 +181,4 @@ elasticsearch
 kibana/
 elasticsearch
 logs/
-tmp/
 project/

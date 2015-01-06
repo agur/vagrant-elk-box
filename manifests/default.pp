@@ -29,7 +29,7 @@ class { 'java': }
 class { 'elasticsearch':
 	java_install => true,
 	manage_repo  => true,
-	repo_version => '1.4.2',
+	repo_version => '1.4',
 }
 
 elasticsearch::instance { 'es-01':
@@ -54,7 +54,7 @@ class { 'logstash':
   # autoupgrade  => true,
   ensure       => 'present',
   manage_repo  => true,
-  repo_version => '1.4.2',
+  repo_version => '1.4',
   require      => [ Class['java'], Class['elasticsearch'] ],
 }
 
